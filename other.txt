@@ -1,0 +1,6 @@
+if use auto increment want to set index long that we have two method can solve this problem: 
+有2種解決方式：
+1.不要指定索引INDEX MultiIdx(id,name, age(100))中字段age(100)的長度
+2.先創建表，再执行创建索引的命令CREATE INDEX MultiIdx ON t3(id,name, age(100))
+設定了CID 參考 id的外建語法----->  ALTER TABLE `customer` ADD  CONSTRAINT `myid` FOREIGN KEY (`CID`) REFERENCES `myorder`(`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+ALTER TABLE myorder AUTO_INCREMENT = 0; -->INCREMENT RETURN 0

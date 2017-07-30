@@ -1,0 +1,107 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow:auto;
+}
+html{
+	height:100%;
+	background-color: #6D98A2;
+}
+/*@media (max-width:1399px) {*/
+	#wrapper {
+		margin-left: auto;
+		margin-right: auto;
+		height:1900px;
+		width:1900px;
+		position: static;
+	}
+
+	#header {
+		height: 8%;
+		width: 100%;
+		color: lightblue;
+		font-family: Consolas, "Courier New", Courier, mono;
+		font-size: 20px;
+		font-weight: bold;
+		background-color: black;
+		text-align: center;
+		padding: 5px;
+	}
+
+	#section {
+		height: 17%;
+		background-color: lightgreen;
+		width: 20%;
+		float: left;
+		padding: 5px;
+	}
+
+	#menu {
+		height: 17%;
+		width: 27%;
+		line-height: 30px;
+		background-color: lightskyblue;
+		text-align: center;
+		float: left;
+		padding: 5px;
+	}
+
+	#footer {
+		background-color: cyan;
+		float: left;
+		clear: both;
+		text-align: left;
+		padding: 5px;
+	}
+
+	#priceList {
+		height: 17%;
+		width: 27%;
+		overflow: auto;
+		line-height: 30px;
+		background-color: #6D98A2;
+		float: left;
+		margin-inside: 3px;
+	}
+/*}*/
+.coffee{
+	display: inline-block;
+	width:  110px;
+	height: 33px;
+	margin: 10px;
+	border:3px solid #73AD21;
+}
+.quality{
+	display:inline;
+	margin: auto;
+}
+.coffee:hover{
+	background-color: #761c19;
+}
+.coffee:active{
+	background-color: #880000;
+}
+.styling{
+	background-color:black;
+	color:lime;
+	font: bold 35px MS Sans Serif;
+	text-align:center;
+}
+img{
+	//border-radius: 8px;
+	width: 26%;
+	height: 17%;
+}
+td:hover{
+	background-color: #b6a338;
+}
+table,td{
+	text-align: center;
+	width:513px;
+	height:46px;
+	background-color: #aa4a24;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
